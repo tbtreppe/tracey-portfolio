@@ -80,6 +80,11 @@ h3 {
   color: white;
 }
 
+.btn-branding:hover {
+  background-color: white;
+  color: black;
+}
+
 .btn-branding-outline {
   border-radius: 4px;
   font-size: 18px;
@@ -131,14 +136,22 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: white;
+  color: lightslategrey;
 }
 
 footer .social-links a {
   margin: 0 20px;
+  color: black;
   padding: 10px 14px;
   font-size: 18px;
-  color: lightslategrey;
+  background-color: #c3cdd8;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: black;
 }
 
 footer .contact-box {
